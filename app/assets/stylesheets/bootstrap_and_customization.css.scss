@@ -1,0 +1,32 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300|Merriweather:400,300);
+@import 'bootstrap';
+
+body {
+	background: url('bg.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	color: white;
+	line-height: 2.0;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 50px;
+}
+
+p {
+	font-family: 'Merriweather', serif;
+	font-weight: 500;
+}
+
+.container {
+	width: 500px;
+	margin: 100px auto;
+	padding: 15px;
+	background: black;
+	background-color: rgba(0, 0, 0, 0.7);
+	text-align: center;
+	border-radius: 40px;
+}
