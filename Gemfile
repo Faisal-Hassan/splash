@@ -30,6 +30,11 @@ group :development, :test do
   gem 'spring'
   gem 'sqlite3'
 end
+ 
+group :production do
+  gem 'rails_12factor'
+  gem 'pg', '~> 0.18.1'
+end
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
